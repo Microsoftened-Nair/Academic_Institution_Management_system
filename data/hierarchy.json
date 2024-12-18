@@ -1,0 +1,88 @@
+{
+  "institution": {
+    "name": "Dr. Smith",
+    "position": "Head of Institution",
+    "children": [
+      {
+        "name": "Ms. White",
+        "position": "Registrar",
+        "children": []
+      },
+      {
+        "name": "Mr. Black",
+        "position": "HR Manager",
+        "children": []
+      },
+      {
+        "name": "Dr. James",
+        "position": "Dean of Science",
+        "children": [
+          {
+            "name": "Prof. Harris",
+            "position": "Professor of Physics",
+            "year_of_joining": 2005,
+            "qualifications": "PhD in Physics",
+            "courses_taught": [
+              "Quantum Mechanics",
+              "Classical Physics"
+            ],
+            "children": [
+              {
+                "name": "Ms. Green",
+                "position": "Lab Assistant, Physics",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Prof. Clark",
+            "position": "Professor of Chemistry",
+            "year_of_joining": 2010,
+            "qualifications": "PhD in Chemistry",
+            "courses_taught": [
+              "Organic Chemistry",
+              "Inorganic Chemistry",
+              "Analytical Chemistry"
+            ],
+            "children": [
+              {
+                "name": "Ms. Brown",
+                "position": "Lab Assistant, Chemistry",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dr. Johnson",
+        "position": "Dean of Arts",
+        "children": [
+          {
+            "name": "Prof. Lee",
+            "position": "Professor of History",
+            "year_of_joining": 2008,
+            "qualifications": "PhD in History",
+            "courses_taught": [
+              "World History",
+              "Modern History"
+            ],
+            "children": []
+          },
+          {
+            "name": "Prof. Baker",
+            "position": "Professor of Literature",
+            "year_of_joining": 2012,
+            "qualifications": "PhD in Literature",
+            "courses_taught": [
+              "English Literature",
+              "Contemporary Literature"
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+}
+

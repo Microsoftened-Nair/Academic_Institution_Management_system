@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Dashboard - AcademiX</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard">
+        <h1>Teacher Dashboard</h1>
+        <div class="dashboard-content">
+            <h2>Course Management</h2>
+            <div class="course-grid" id="course-list"></div>
+            <form id="add-course-form" class="add-form">
+                <h3>Add New Course</h3>
+                <input type="text" id="course-title" placeholder="Course Title" required>
+                <input type="text" id="course-description" placeholder="Course Description" required>
+                <input type="text" id="course-image" placeholder="Course Image URL" required>
+                <button type="submit">Add Course</button>
+            </form>
+        </div>
+    </div>
+    <script src="teacher.js"></script>
+</body>
+</html>
+

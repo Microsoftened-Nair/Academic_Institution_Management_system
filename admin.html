@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - AcademiX</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard">
+        <h1>Admin Dashboard</h1>
+        <div class="dashboard-content">
+            <h2>Staff Management</h2>
+            <div class="org-chart" id="org-chart"></div>
+            <form id="add-staff-form" class="add-form">
+                <h3>Add New Staff</h3>
+                <input type="text" id="staff-name" placeholder="Name" required>
+                <input type="text" id="staff-position" placeholder="Position" required>
+                <select id="staff-parent">
+                    <option value="">No Parent (Top Level)</option>
+                </select>
+                <button type="submit">Add Staff</button>
+            </form>
+        </div>
+    </div>
+    <script src="admin.js"></script>
+</body>
+</html>
+
